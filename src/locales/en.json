@@ -1,0 +1,195 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "The Orbital Journey",
+    "portfolio": "Ideas in Orbit",
+    "contact": "Contact Portal",
+    "bookSession": "✨ Start orbital journey",
+    "toggleTheme": "Change dimension",
+    "menu": "Cosmic navigation",
+    "closeMenu": "Close portal"
+  },
+  "hero": {
+    "badge": "🌌 AstralWalker - MVPs in orbit",
+    "title": "Your idea deserves",
+    "titleHighlight": "its own orbit",
+    "titleEnd": "digital",
+    "description": "We put it spinning in the digital cosmos. An MVP is not a finished product: it's a frequency, a pulse that vibrates in another dimension.",
+    "playDemo": "See Dimensional Demo",
+    "bookStudio": "✨ I want to enter the portal",
+    "tracksProduced": "+∞ Ideas",
+    "produced": "In Orbit"
+  },
+  "services": {
+    "title": "The Orbital Journey",
+    "description": "Unique methodology to transform ideas into functional MVPs that vibrate in the digital cosmos.",
+    "discovery": {
+      "title": "🪐 We align your constellation",
+      "description": "Research and discovery to understand your idea, market and users. We define the MVP core."
+    },
+    "prototype": {
+      "title": "🔮 We open the portal",
+      "description": "Rapid prototyping with wireframes, mockups and user flows. We validate before programming."
+    },
+    "development": {
+      "title": "🌌 Your MVP enters orbit",
+      "description": "Agile development of your MVP: frontend, backend, database. In 4-8 weeks you have a working product."
+    },
+    "launch": {
+      "title": "🚀 Dimensional launch",
+      "description": "Deploy, testing and MVP launch. We configure analytics and validation metrics."
+    },
+    "iteration": {
+      "title": "♾️ Fractal expansion",
+      "description": "We iterate based on real feedback. We scale features and optimize according to user data."
+    },
+    "consulting": {
+      "title": "🌠 Cosmic consulting",
+      "description": "Product strategy, technical architecture and roadmap. We guide you in every quantum leap."
+    }
+  },
+  "manifesto": {
+    "title": "Astral Manifesto",
+    "description": "We don't believe in straight paths. We believe in orbits, quantum leaps and unexpected portals.",
+    "quote": "An MVP is not a finished product: it's a frequency, a pulse that vibrates in another dimension. At AstralWalker we work so that your idea stops being trapped in a drawer and starts orbiting realities."
+  },
+  "uniqueness": {
+    "title": "What makes us unique",
+    "description": "Cosmic ingredients that transform ideas into orbital realities",
+    "features": [
+      {
+        "icon": "😼",
+        "title": "A visionary Siamese as cosmic totem",
+        "description": "Our dimensional guardian guides each project to its perfect orbit"
+      },
+      {
+        "icon": "🎨", 
+        "title": "Hypnotic interfaces",
+        "description": "Because the visual also opens doors to other dimensions"
+      },
+      {
+        "icon": "🛠️",
+        "title": "Solid technology, invisible but vibrant",
+        "description": "Code that pulses with the right frequency of the digital cosmos"
+      },
+      {
+        "icon": "🌠",
+        "title": "Controlled madness",
+        "description": "The ingredient that opens wormholes to innovation"
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Ideas in Orbit",
+    "description": "MVPs that have found their perfect frequency and vibrate in the digital cosmos",
+    "projects": {
+      "mvpApp": {
+        "title": "Fitness App MVP",
+        "category": "Dimensional Portal Opened"
+      },
+      "ecommercePlatform": {
+        "title": "E-commerce Platform",
+        "category": "Constellation Aligned"
+      },
+      "saasLanding": {
+        "title": "B2B SaaS Landing",
+        "category": "Orbit Established"
+      },
+      "fintech": {
+        "title": "Fintech MVP",
+        "category": "Fractal Expansion"
+      },
+      "socialNetwork": {
+        "title": "Niche Social Network",
+        "category": "Dimensional Portal Opened"
+      },
+      "aiTool": {
+        "title": "AI Tool",
+        "category": "Quantum Leap"
+      },
+      "marketplace": {
+        "title": "B2B Marketplace",
+        "category": "Constellation Aligned"
+      },
+      "healthApp": {
+        "title": "Mental Health App",
+        "category": "Orbit Established"
+      }
+    }
+  },
+  "cta": {
+    "title": "Your idea is ready to orbit",
+    "description": "Shall we open the portal? Enter the orbit and let your MVP find its perfect dimension",
+    "contactNow": "🌌 Enter the orbit",
+    "viewPortfolio": "See ideas in orbit"
+  },
+  "contact": {
+    "title": "Interdimensional Contact",
+    "description": "Communicate with us from any dimension to start your idea's orbital journey",
+    "contactInfo": "Contact Coordinates",
+    "location": "Dimensional Location",
+    "howToGet": "How to reach the portal",
+    "bookAppointment": "Schedule orbital session",
+    "address": {
+      "title": "Base Dimension",
+      "line1": "42 Digital Innovation Ave",
+      "line2": "Cosmos Tech District, CDMX 01010",
+      "line3": "Earth, Milky Way"
+    },
+    "phone": {
+      "title": "Direct Frequency",
+      "main": "+52 55 ASTRAL1 (2787251)",
+      "whatsapp": "WhatsApp Portal: +52 55 PORTAL1"
+    },
+    "email": {
+      "title": "Quantum Channel",
+      "info": "hello@astralwalker.dev",
+      "reservations": "portal@astralwalker.dev"
+    },
+    "hours": {
+      "title": "Orbital Hours",
+      "weekdays": "Mon - Fri: 9:00 AM - 7:00 PM",
+      "weekends": "Sat: 10:00 AM - 3:00 PM (Sun: Cosmic Meditation)"
+    },
+    "transport": {
+      "metro": "🚇 Metro: Innovation Station (Cosmic Blue Line)",
+      "metrobus": "🚌 Portal Bus: Astral Stop",
+      "parking": "🚗 Dimensional parking available",
+      "accessibility": "♿ Portal accessible to all dimensions"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 AstralWalker - MVPs in orbit, ready to open portals 🌌"
+  },
+  "seo": {
+    "meta": {
+      "homeTitle": "AstralWalker - MVPs in orbit | Innovative Digital Product Development",
+      "homeDescription": "We transform ideas into MVPs that vibrate in the digital cosmos. Rapid prototype development, product validation and fractal expansion for visionary startups.",
+      "servicesTitle": "The Orbital Journey | MVP Development | AstralWalker",
+      "servicesDescription": "Unique methodology to transform ideas into digital products: constellation alignment, rapid prototyping, MVP orbit and fractal expansion.",
+      "portfolioTitle": "Ideas in Orbit | MVP Portfolio | AstralWalker",
+      "portfolioDescription": "Discover MVPs that have found their perfect frequency in the digital cosmos. App projects, SaaS platforms, fintechs and AI tools.",
+      "contactTitle": "Interdimensional Contact | AstralWalker",
+      "contactDescription": "Communicate from any dimension to start your idea's orbital journey. Contact portal for startups and visionary entrepreneurs."
+    },
+    "keywords": {
+      "home": ["MVP development", "rapid prototype", "startup development", "minimum viable product", "agile development", "digital innovation", "AstralWalker", "ideas to products"],
+      "services": ["MVP development", "prototyping", "product validation", "startup development", "agile methodology", "digital products", "rapid development"],
+      "portfolio": ["successful MVPs", "success cases", "digital products", "innovative applications", "agile development", "startups", "tech portfolio"],
+      "contact": ["startup contact", "MVP development", "development quote", "product consulting", "AstralWalker contact"]
+    },
+    "structured": {
+      "businessName": "AstralWalker",
+      "businessType": "Digital Product and MVP Development",
+      "description": "Agency specialized in transforming ideas into functional MVPs through unique orbital methodology. Rapid prototyping and digital product validation.",
+      "services": [
+        "MVP Development",
+        "Rapid Prototyping", 
+        "Product Validation",
+        "App Development",
+        "Product Consulting",
+        "Web/Mobile Development"
+      ]
+    }
+  }
+}

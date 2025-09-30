@@ -1,0 +1,195 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "services": "El Viaje Orbital",
+    "portfolio": "Ideas en Órbita",
+    "contact": "Portal de Contacto",
+    "bookSession": "✨ Iniciar viaje orbital",
+    "toggleTheme": "Cambiar dimensión",
+    "menu": "Navegación cósmica",
+    "closeMenu": "Cerrar portal"
+  },
+  "hero": {
+    "badge": "� AstralWalker - MVPs en órbita",
+    "title": "Tu idea merece",
+    "titleHighlight": "su propia órbita",
+    "titleEnd": "digital",
+    "description": "Nosotros la ponemos a girar en el cosmos digital. Un MVP no es un producto terminado: es una frecuencia, un pulso que vibra en otra dimensión.",
+    "playDemo": "Ver Demo Dimensional",
+    "bookStudio": "✨ Quiero entrar al portal",
+    "tracksProduced": "+∞ Ideas",
+    "produced": "En Órbita"
+  },
+  "services": {
+    "title": "El Viaje Orbital",
+    "description": "Metodología única para transformar ideas en MVPs funcionales que vibran en el cosmos digital.",
+    "discovery": {
+      "title": "🪐 Alineamos tu constelación",
+      "description": "Research y discovery para entender tu idea, mercado y usuarios. Definimos el core del MVP."
+    },
+    "prototype": {
+      "title": "🔮 Abrimos el portal",
+      "description": "Prototipado rápido con wireframes, mockups y flujos de usuario. Validamos antes de programar."
+    },
+    "development": {
+      "title": "🌌 Tu MVP entra en órbita",
+      "description": "Desarrollo ágil de tu MVP: frontend, backend, database. En 4-8 semanas tienes producto funcionando."
+    },
+    "launch": {
+      "title": "🚀 Lanzamiento dimensional",
+      "description": "Deploy, testing y lanzamiento del MVP. Configuramos analytics y métricas de validación."
+    },
+    "iteration": {
+      "title": "♾️ Expansión fractal",
+      "description": "Iteramos basado en feedback real. Escalamos features y optimizamos según datos de usuarios."
+    },
+    "consulting": {
+      "title": "🌠 Consultoría cósmica",
+      "description": "Product strategy, technical architecture y roadmap. Te guiamos en cada salto cuántico."
+    }
+  },
+  "manifesto": {
+    "title": "Manifiesto Astral",
+    "description": "No creemos en caminos rectos. Creemos en órbitas, en saltos cuánticos y en portales inesperados.",
+    "quote": "Un MVP no es un producto terminado: es una frecuencia, un pulso que vibra en otra dimensión. En AstralWalker trabajamos para que tu idea deje de estar atrapada en un cajón y empiece a orbitar realidades."
+  },
+  "uniqueness": {
+    "title": "Lo que nos hace únicos",
+    "description": "Ingredientes cósmicos que transforman ideas en realidades orbitales",
+    "features": [
+      {
+        "icon": "😼",
+        "title": "Un siamés visionario como tótem cósmico",
+        "description": "Nuestro guardián dimensional guía cada proyecto hacia su órbita perfecta"
+      },
+      {
+        "icon": "🎨", 
+        "title": "Interfaces hipnóticas",
+        "description": "Porque lo visual también abre puertas hacia otras dimensiones"
+      },
+      {
+        "icon": "🛠️",
+        "title": "Tecnología sólida, invisible pero vibrante",
+        "description": "Código que pulsa con la frecuencia correcta del cosmos digital"
+      },
+      {
+        "icon": "🌠",
+        "title": "Locura controlada",
+        "description": "El ingrediente que abre agujeros de gusano hacia la innovación"
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Ideas en Órbita",
+    "description": "MVPs que han encontrado su frecuencia perfecta y vibran en el cosmos digital",
+    "projects": {
+      "mvpApp": {
+        "title": "MVP de App de Fitness",
+        "category": "Portal Dimensional Abierto"
+      },
+      "ecommercePlatform": {
+        "title": "Plataforma E-commerce",
+        "category": "Constelación Alineada"
+      },
+      "saasLanding": {
+        "title": "Landing SaaS B2B",
+        "category": "Órbita Establecida"
+      },
+      "fintech": {
+        "title": "MVP Fintech",
+        "category": "Expansión Fractal"
+      },
+      "socialNetwork": {
+        "title": "Red Social de Nicho",
+        "category": "Portal Dimensional Abierto"
+      },
+      "aiTool": {
+        "title": "Herramienta de IA",
+        "category": "Salto Cuántico"
+      },
+      "marketplace": {
+        "title": "Marketplace B2B",
+        "category": "Constelación Alineada"
+      },
+      "healthApp": {
+        "title": "App de Salud Mental",
+        "category": "Órbita Establecida"
+      }
+    }
+  },
+  "cta": {
+    "title": "Tu idea está lista para orbitar",
+    "description": "¿Abrimos el portal? Entra en la órbita y deja que tu MVP encuentre su dimensión perfecta",
+    "contactNow": "🌌 Entrar en la órbita",
+    "viewPortfolio": "Ver ideas en órbita"
+  },
+  "contact": {
+    "title": "Contacto Interdimensional",
+    "description": "Comunícate con nosotros desde cualquier dimensión para iniciar el viaje orbital de tu idea",
+    "contactInfo": "Coordenadas de Contacto",
+    "location": "Ubicación Dimensional",
+    "howToGet": "Cómo llegar al portal",
+    "bookAppointment": "Agendar sesión orbital",
+    "address": {
+      "title": "Dimensión Base",
+      "line1": "Av. Innovación Digital 42",
+      "line2": "Col. Cosmos Tech, CDMX 01010",
+      "line3": "Tierra, Vía Láctea"
+    },
+    "phone": {
+      "title": "Frecuencia Directa",
+      "main": "+52 55 ASTRAL1 (2787251)",
+      "whatsapp": "Portal WhatsApp: +52 55 PORTAL1"
+    },
+    "email": {
+      "title": "Canal Cuántico",
+      "info": "hola@astralwalker.dev",
+      "reservations": "portal@astralwalker.dev"
+    },
+    "hours": {
+      "title": "Horarios Orbitales",
+      "weekdays": "Lun - Vie: 9:00 AM - 7:00 PM",
+      "weekends": "Sáb: 10:00 AM - 3:00 PM (Dom: Meditación Cósmica)"
+    },
+    "transport": {
+      "metro": "🚇 Metro: Estación Innovación (Línea Azul Cósmico)",
+      "metrobus": "🚌 Portal Bus: Parada Astral",
+      "parking": "🚗 Estacionamiento dimensional disponible",
+      "accessibility": "♿ Portal accesible para todas las dimensiones"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 AstralWalker - MVPs en órbita, listos para abrir portales 🌌"
+  },
+  "seo": {
+    "meta": {
+      "homeTitle": "AstralWalker - MVPs en órbita | Desarrollo de Productos Digitales Innovadores",
+      "homeDescription": "Transformamos ideas en MVPs que vibran en el cosmos digital. Desarrollo rápido de prototipos, validación de productos y expansión fractal para startups visionarias.",
+      "servicesTitle": "El Viaje Orbital | Desarrollo de MVPs | AstralWalker",
+      "servicesDescription": "Metodología única para transformar ideas en productos digitales: alineación de constelación, prototipado rápido, órbita MVP y expansión fractal.",
+      "portfolioTitle": "Ideas en Órbita | Portfolio de MVPs | AstralWalker",
+      "portfolioDescription": "Descubre MVPs que han encontrado su frecuencia perfecta en el cosmos digital. Proyectos de apps, plataformas SaaS, fintechs y herramientas de IA.",
+      "contactTitle": "Contacto Interdimensional | AstralWalker",
+      "contactDescription": "Comunícate desde cualquier dimensión para iniciar el viaje orbital de tu idea. Portal de contacto para startups y emprendedores visionarios."
+    },
+    "keywords": {
+      "home": ["desarrollo MVP", "prototipo rápido", "startup development", "producto mínimo viable", "desarrollo ágil", "innovación digital", "AstralWalker", "ideas a productos"],
+      "services": ["MVP development", "prototipado", "validación producto", "desarrollo startup", "metodología ágil", "productos digitales", "desarrollo rápido"],
+      "portfolio": ["MVPs exitosos", "casos de éxito", "productos digitales", "aplicaciones innovadoras", "desarrollo ágil", "startups", "portfolio tech"],
+      "contact": ["contacto startup", "desarrollo MVP", "cotización desarrollo", "consultoría producto", "AstralWalker contacto"]
+    },
+    "structured": {
+      "businessName": "AstralWalker",
+      "businessType": "Desarrollo de Productos Digitales y MVPs",
+      "description": "Agencia especializada en transformar ideas en MVPs funcionales mediante metodología orbital única. Prototipado rápido y validación de productos digitales.",
+      "services": [
+        "Desarrollo de MVP",
+        "Prototipado Rápido", 
+        "Validación de Producto",
+        "Desarrollo de Apps",
+        "Consultoría de Producto",
+        "Desarrollo Web/Mobile"
+      ]
+    }
+  }
+}

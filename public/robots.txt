@@ -1,0 +1,44 @@
+User-agent: *
+Allow: /
+
+# AstralWalker - MVPs en órbita
+# Bloquear páginas administrativas
+Disallow: /admin
+Disallow: /private
+Disallow: /api/
+Disallow: /_next/
+
+# Permitir páginas de idiomas
+Allow: /es/
+Allow: /en/
+
+# Permitir específicamente a Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /api/
+
+# Permitir específicamente a Bingbot
+User-agent: Bingbot
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /api/
+
+# Allow social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Sitemap
+Sitemap: https://astralwalker.dev/sitemap.xml
+
+# Crawl-delay para bots específicos
+User-agent: *
+Crawl-delay: 1

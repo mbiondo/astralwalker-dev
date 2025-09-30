@@ -1,0 +1,70 @@
+{
+  "name": "AstralWalker - MVPs en órbita",
+  "short_name": "AstralWalker",
+  "description": "Transformamos ideas en MVPs que vibran en el cosmos digital",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#06b6d4",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/astralwalker-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/astralwalker-logo.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "productivity",
+    "developer",
+    "technology"
+  ],
+  "shortcuts": [
+    {
+      "name": "Servicios",
+      "short_name": "Servicios",
+      "description": "Ver nuestros servicios de desarrollo MVP",
+      "url": "/#services",
+      "icons": [
+        {
+          "src": "/astralwalker-logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "short_name": "Portfolio", 
+      "description": "Ideas en órbita - nuestros proyectos",
+      "url": "/#portfolio",
+      "icons": [
+        {
+          "src": "/astralwalker-logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contacto",
+      "short_name": "Contacto",
+      "description": "Portal de contacto interdimensional",
+      "url": "/#contact", 
+      "icons": [
+        {
+          "src": "/astralwalker-logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

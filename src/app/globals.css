@@ -1,0 +1,421 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Paleta de colores basada en el logo INDIGO PRODUXION - rosa magenta a violeta */
+  --background: oklch(0.98 0.01 320);
+  --foreground: oklch(0.12 0.02 320);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.12 0.02 320);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.12 0.02 320);
+  --primary: oklch(0.12 0.02 320); /* Negro del logo */
+  --primary-foreground: oklch(0.98 0.01 320);
+  --secondary: oklch(0.92 0.02 320);
+  --secondary-foreground: oklch(0.12 0.02 320);
+  --muted: oklch(0.95 0.01 320);
+  --muted-foreground: oklch(0.55 0.02 320);
+  /* Cambiando a rosa magenta más fiel al logo */
+  --accent: oklch(0.68 0.28 330); /* Rosa magenta del logo */
+  --accent-foreground: oklch(0.98 0.01 320);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.98 0.01 320);
+  --border: oklch(0.88 0.02 320);
+  --input: oklch(0.92 0.02 320);
+  --ring: oklch(0.68 0.28 330);
+  /* Actualizando charts con tonos rosa-violeta */
+  --chart-1: oklch(0.68 0.28 330); /* Rosa magenta */
+  --chart-2: oklch(0.58 0.25 290); /* Violeta rosado */
+  --chart-3: oklch(0.12 0.02 320); /* Negro */
+  --chart-4: oklch(0.78 0.22 340); /* Rosa claro */
+  --chart-5: oklch(0.48 0.22 280); /* Violeta profundo */
+  --radius: 0.5rem;
+  --sidebar: oklch(0.98 0.01 320);
+  --sidebar-foreground: oklch(0.12 0.02 320);
+  --sidebar-primary: oklch(0.12 0.02 320);
+  --sidebar-primary-foreground: oklch(0.98 0.01 320);
+  --sidebar-accent: oklch(0.92 0.02 320);
+  --sidebar-accent-foreground: oklch(0.12 0.02 320);
+  --sidebar-border: oklch(0.88 0.02 320);
+  --sidebar-ring: oklch(0.68 0.28 330);
+}
+
+.dark {
+  /* Modo oscuro con énfasis en los colores rosa-violeta del logo sobre fondo negro */
+  --background: oklch(0.08 0.02 320); /* Fondo negro como el logo */
+  --foreground: oklch(0.95 0.01 320);
+  --card: oklch(0.12 0.02 320);
+  --card-foreground: oklch(0.95 0.01 320);
+  --popover: oklch(0.12 0.02 320);
+  --popover-foreground: oklch(0.95 0.01 320);
+  /* Rosa magenta como primario en dark mode */
+  --primary: oklch(0.68 0.28 330); /* Rosa magenta como primario */
+  --primary-foreground: oklch(0.08 0.02 320);
+  --secondary: oklch(0.18 0.02 320);
+  --secondary-foreground: oklch(0.95 0.01 320);
+  --muted: oklch(0.15 0.02 320);
+  --muted-foreground: oklch(0.65 0.02 320);
+  /* Violeta rosado como acento */
+  --accent: oklch(0.58 0.25 290); /* Violeta rosado como acento */
+  --accent-foreground: oklch(0.95 0.01 320);
+  --destructive: oklch(0.55 0.2 25);
+  --destructive-foreground: oklch(0.95 0.01 320);
+  --border: oklch(0.18 0.02 320);
+  --input: oklch(0.18 0.02 320);
+  --ring: oklch(0.68 0.28 330);
+  --sidebar: oklch(0.08 0.02 320);
+  --sidebar-foreground: oklch(0.95 0.01 320);
+  /* Actualizando sidebar con colores rosa-violeta */
+  --sidebar-primary: oklch(0.68 0.28 330);
+  --sidebar-primary-foreground: oklch(0.08 0.02 320);
+  --sidebar-accent: oklch(0.18 0.02 320);
+  --sidebar-accent-foreground: oklch(0.95 0.01 320);
+  --sidebar-border: oklch(0.18 0.02 320);
+  --sidebar-ring: oklch(0.68 0.28 330);
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  /* Mejorar smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Optimización para animaciones */
+  * {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+/* Animaciones personalizadas para scroll */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Clases de utilidad para animaciones */
+.animate-slide-up {
+  animation: slideInUp 0.6s ease-out forwards;
+}
+
+.animate-slide-left {
+  animation: slideInLeft 0.6s ease-out forwards;
+}
+
+.animate-slide-right {
+  animation: slideInRight 0.6s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.6s ease-out forwards;
+}
+
+/* Mejoras de rendimiento para animaciones */
+.will-change-transform {
+  will-change: transform;
+}
+
+.will-change-opacity {
+  will-change: opacity;
+}
+
+/* Optimización para Framer Motion */
+.framer-motion-element {
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Navegación activa */
+.nav-link-active {
+  color: oklch(0.68 0.28 330);
+  font-weight: 500;
+}
+
+.nav-indicator {
+  background: linear-gradient(90deg, oklch(0.68 0.28 330), oklch(0.58 0.25 290));
+  height: 2px;
+  border-radius: 1px;
+}
+
+/* Barra de progreso mejorada */
+.scroll-progress {
+  background: linear-gradient(90deg, 
+    oklch(0.68 0.28 330) 0%, 
+    oklch(0.58 0.25 290) 50%, 
+    oklch(0.68 0.25 350) 100%
+  );
+  box-shadow: 0 0 10px rgba(147, 51, 234, 0.3);
+}
+
+.scroll-progress-glow {
+  background: linear-gradient(90deg, 
+    oklch(0.68 0.28 330 / 0.5) 0%, 
+    oklch(0.58 0.25 290 / 0.5) 50%, 
+    oklch(0.68 0.25 350 / 0.5) 100%
+  );
+  filter: blur(2px);
+}
+
+/* Mobile menu improvements */
+.mobile-menu-backdrop {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Ocultar scrollbar horizontal en elementos con scroll horizontal */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Clase para suavizar transiciones globales */
+.transition-gpu {
+  transform: translateZ(0);
+  will-change: transform, opacity;
+}
+
+/* Mejoras específicas para móviles */
+@media (max-width: 640px) {
+  /* Ajustar tamaños de fuente para móviles */
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Mejorar touch targets */
+  button, 
+  a[role="button"],
+  .mobile-menu button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Optimizar espaciado en contenedores */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Mejorar legibilidad en tarjetas */
+  .card-mobile {
+    padding: 1rem;
+    border-radius: 0.75rem;
+  }
+  
+  /* Ajustar animaciones para móviles */
+  .motion-reduce-mobile {
+    animation-duration: 0.3s;
+  }
+}
+
+/* Mejoras para tablets */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* Optimización para pantallas táctiles */
+@media (hover: none) and (pointer: coarse) {
+  /* Ajustar hover effects para touch devices */
+  .hover\:scale-105:hover {
+    transform: scale(1.02);
+  }
+  
+  .hover\:shadow-xl:hover {
+    box-shadow: 0 10px 25px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05);
+  }
+  
+  /* Mejorar interacciones táctiles */
+  button:active,
+  .tap-highlight:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+  }
+}
+
+/* Ocultar scrollbars personalizados en móviles */
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Breakpoint personalizado para pantallas extra pequeñas */
+@media (max-width: 360px) {
+  .text-xs-mobile {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  
+  .px-xs-mobile {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
+/* Efecto glow para los iconos PNG */
+.logo-glow {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.logo-glow::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit;
+  opacity: 0;
+  z-index: -1;
+  filter: blur(8px);
+  transition: opacity 0.3s ease;
+}
+
+.logo-glow:hover::before {
+  opacity: 0.7;
+}
+
+.logo-glow-active {
+  position: relative;
+}
+
+.logo-glow-active::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+
+  border-radius: inherit;
+  opacity: 0.5;
+  z-index: -1;
+  filter: blur(10px);
+  animation: pulse-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-glow {
+  0% {
+    opacity: 0.3;
+    filter: blur(8px);
+  }
+  100% {
+    opacity: 0.7;
+    filter: blur(12px);
+  }
+}
+
+/* Variación para modo oscuro */
+.dark .logo-glow::before,
+.dark .logo-glow-active::before {
+
+}
