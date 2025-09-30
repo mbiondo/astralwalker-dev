@@ -82,7 +82,7 @@ export function HeroSection() {
           {/* Imagen con animaciones desde la derecha */}
           <SlideInRight delay={0.5} className="relative order-first lg:order-last">
             <ScaleIn delay={0.7}>
-              <div className="aspect-square rounded-2xl overflow-hidden  shadow-2xl relative flex items-center justify-center p-8">
+              <div className="aspect-square rounded-2xl overflow-hidden  relative flex items-center justify-center p-8">
                 <Image
                   src={AstralwakerImage}
                   alt="AstralWalker - Guardián Cósmico de MVPs"

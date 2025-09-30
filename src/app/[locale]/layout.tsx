@@ -2,9 +2,11 @@ import { notFound } from 'next/navigation';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { generateMetadata as generateSEOMetadata, generateJsonLd } from '@/lib/seo';
-import { CosmicBackground } from '@/components/effects/CosmicEffects';
+import { DynamicCosmicEffects } from '@/components/ClientWrapper';
+import { StaticCosmicBackground } from '@/components/StaticComponents';
 import type { Metadata } from 'next';
 import '../globals.css';
+import '../../styles/ssr-consistency.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -66,7 +68,9 @@ export default async function LocaleLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <CosmicBackground starCount={100} intensity="low" />
+          {/* Background estático para SSR, se reemplaza por efectos dinámicos en cliente */}
+          <StaticCosmicBackground />
+          <DynamicCosmicEffects starCount={100} intensity="low" />
           {children}
         </ThemeProvider>
       </body>

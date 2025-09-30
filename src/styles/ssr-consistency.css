@@ -1,0 +1,96 @@
+/**
+ * CSS personalizado para asegurar consistencia visual entre SSR y CSR
+ * Previene el "blink" visual durante la hidratación
+ */
+
+/* Asegurar que los componentes estáticos tengan el mismo aspecto que los dinámicos */
+.ssr-consistent {
+  /* Usar variables CSS para consistencia con el sistema de temas */
+  background-color: hsl(var(--card));
+  border-color: hsl(var(--border));
+  color: hsl(var(--card-foreground));
+}
+
+/* Prevenir layout shift durante hidratación */
+.hydration-safe {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 300px;
+}
+
+/* Transiciones suaves para cuando se reemplazan componentes */
+.ssr-to-csr-transition {
+  transition: all 0.3s ease-out;
+}
+
+/* Asegurar que los efectos cósmicos no causen layout shift */
+.cosmic-background-ssr {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: hsl(var(--background));
+  background-image: 
+    radial-gradient(circle at 25% 25%, hsl(var(--primary) / 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, hsl(var(--secondary) / 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, hsl(var(--accent) / 0.05) 0%, transparent 50%);
+}
+
+/* Consistencia en navegación */
+.nav-ssr-consistent {
+  backdrop-filter: blur(12px);
+  background-color: hsl(var(--background) / 0.8);
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+/* Consistencia en cards de servicios */
+.service-card-ssr {
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.service-card-ssr:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border-color: hsl(var(--primary) / 0.5);
+}
+
+/* Consistencia en portfolio items */
+.portfolio-item-ssr {
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.portfolio-item-ssr:hover {
+  box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-color: hsl(var(--primary) / 0.3);
+}
+
+/* Evitar flash de contenido sin estilo */
+.no-fouc {
+  visibility: hidden;
+}
+
+.no-fouc.hydrated {
+  visibility: visible;
+}
+
+/* Placeholder consistente para componentes que se cargan */
+.component-placeholder {
+  background-color: hsl(var(--muted));
+  border-radius: 0.5rem;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

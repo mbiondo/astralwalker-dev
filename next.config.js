@@ -2,12 +2,16 @@
 const nextConfig = {
   // Performance optimizations
   experimental: {
-    optimizeCss: true,
+    // optimizeCss: true, // Deshabilitado temporalmente por conflicto con critters
     optimizePackageImports: ['framer-motion', 'lucide-react', '@radix-ui/react-accordion'],
+    // Removemos PPR que requiere canary - usaremos estrategias alternativas
   },
   
   // Enable modern output
   output: 'standalone',
+  
+  // Mejorar SSR performance
+  reactStrictMode: true,
   
   // Compiler optimizations
   compiler: {
