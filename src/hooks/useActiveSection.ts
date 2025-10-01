@@ -8,7 +8,7 @@ export function useActiveSection() {
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    const sections = ['hero', 'services', 'portfolio', 'contact'];
+    const sections = ['hero', 'services', 'team', 'case-studies', 'pricing', 'deliverables', 'post-mvp', 'contact'];
     const sectionElements = sections.map(id => document.getElementById(id)).filter(Boolean);
 
     const observer = new IntersectionObserver(

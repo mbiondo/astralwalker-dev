@@ -22,7 +22,9 @@ export function MobileMenu({ isOpen, onToggle }: MobileMenuProps) {
   const navLinks = [
     { id: 'hero', label: 'Home', translationKey: 'navigation.home' },
     { id: 'services', label: 'Services', translationKey: 'navigation.services' },
-    { id: 'portfolio', label: 'Portfolio', translationKey: 'navigation.portfolio' },
+    { id: 'team', label: 'Team', translationKey: 'navigation.team' },
+    { id: 'case-studies', label: 'Case Studies', translationKey: 'navigation.caseStudies' },
+    { id: 'pricing', label: 'Pricing', translationKey: 'navigation.pricing' },
     { id: 'contact', label: 'Contact', translationKey: 'navigation.contact' },
   ];
 

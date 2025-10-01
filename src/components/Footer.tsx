@@ -28,13 +28,19 @@ export function Footer() {
           
           {/* Links de navegación */}
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm">
-            <a href="#servicios" className="text-muted-foreground hover:text-indigo-600 transition-colors">
+            <a href="#services" className="text-muted-foreground hover:text-indigo-600 transition-colors">
               {t('navigation.services')}
             </a>
-            <a href="#portfolio" className="text-muted-foreground hover:text-indigo-600 transition-colors">
-              {t('navigation.portfolio')}
+            <a href="#team" className="text-muted-foreground hover:text-indigo-600 transition-colors">
+              {t('navigation.team')}
             </a>
-            <a href="mailto:hola@astralwalker.dev" className="text-muted-foreground hover:text-indigo-600 transition-colors">
+            <a href="#case-studies" className="text-muted-foreground hover:text-indigo-600 transition-colors">
+              {t('navigation.caseStudies')}
+            </a>
+            <a href="#pricing" className="text-muted-foreground hover:text-indigo-600 transition-colors">
+              {t('navigation.pricing')}
+            </a>
+            <a href="#contact" className="text-muted-foreground hover:text-indigo-600 transition-colors">
               {t('navigation.contact')}
             </a>
           </div>

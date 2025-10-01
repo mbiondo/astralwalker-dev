@@ -2,6 +2,9 @@
   "navigation": {
     "home": "Home",
     "services": "The Orbital Journey",
+    "team": "Team",
+    "caseStudies": "Case Studies",
+    "pricing": "Pricing",
     "portfolio": "Ideas in Orbit",
     "contact": "Contact Portal",
     "bookSession": "✨ Start orbital journey",
@@ -48,10 +51,267 @@
       "description": "Product strategy, technical architecture and roadmap. We guide you in every quantum leap."
     }
   },
+  "team": {
+    "badge": "👥 The astral team",
+    "title": "Who brings your MVP to life",
+    "description": "A small but powerful team, focused on turning ideas into working products",
+    "expertiseLabel": "Expertise",
+    "members": {
+      "founder": {
+        "name": "Alex Cosmos",
+        "role": "Founder & Product Strategist",
+        "bio": "10+ years building digital products. Former CTO of acquired startup. Obsessed with validating ideas fast and right.",
+        "expertise": "Product strategy, MVP development, Lean Startup"
+      },
+      "tech": {
+        "name": "Maya Dev",
+        "role": "Lead Developer",
+        "bio": "Full-stack developer with a love for clean code and scalable architectures. Specialized in taking MVPs from 0 to 1.",
+        "expertise": "React, Node.js, TypeScript, Cloud Architecture"
+      },
+      "design": {
+        "name": "Luna Design",
+        "role": "UX/UI Designer",
+        "bio": "Digital product designer with an eye for usability. Believes design should be invisible yet memorable.",
+        "expertise": "Product Design, User Research, Design Systems"
+      }
+    },
+    "values": {
+      "title": "How we work",
+      "remote": {
+        "title": "100% Remote, Global",
+        "description": "We work with clients from any country. Flexible with time zones and async methodology."
+      },
+      "collaboration": {
+        "title": "Your idea, our execution",
+        "description": "You don't need tech knowledge. Just the idea and willingness to iterate with real feedback."
+      },
+      "speed": {
+        "title": "Speed with quality",
+        "description": "MVP doesn't mean 'poorly done'. It means focusing on essentials and doing them right."
+      }
+    }
+  },
+  "caseStudies": {
+    "badge": "📈 Real case",
+    "title": "MVP in production",
+    "description": "Real project we launched and the results we achieved",
+    "challengeLabel": "The challenge",
+    "solutionLabel": "Our solution",
+    "metricsLabel": "Results",
+    "achievementsLabel": "Key achievements",
+    "timelineLabel": "Time",
+    "usersLabel": "Users",
+    "retentionLabel": "Retention",
+    "servicesLabel": "Services",
+    "performanceLabel": "Improvement",
+    "techLabel": "Tech stack",
+    "architectureTitle": "System Architecture",
+    "viewProjectButton": "View project details",
+    "ctaText": "Want your project to be the next success story?",
+    "ctaButton": "Schedule a free session",
+    "cases": {
+      "curvephonic": {
+        "title": "Curvephonic - AI Music Video Platform",
+        "description": "Distributed system that transforms images into complete audiovisual experiences using mathematical analysis and AI.",
+        "challenge": "The founder needed to build a complex microservices architecture with concurrent processing, image analysis, algorithmic music generation, and video synthesis. All from scratch, without a technical team.",
+        "solution": "We designed and developed a Go-based microservices architecture with intelligent worker pools, parallel processing, and optimized rendering pipelines. Complete system running in 12 weeks with 4 integrated microservices.",
+        "achievements": {
+          "1": "4-microservice architecture with concurrent processing (Go + RabbitMQ + MinIO)",
+          "2": "75% performance improvement with intelligent worker pools and auto-scaling",
+          "3": "Complete pipeline: image analysis → AI music → video synthesis",
+          "4": "Production-ready system with monitoring, metrics, and automated deployment"
+        },
+        "metrics": {
+          "timeline": "12 wks",
+          "services": "4",
+          "performance": "75%"
+        },
+        "technologies": "Go, RabbitMQ, MinIO, FFmpeg, MusicGen AI, Docker, Prometheus"
+      }
+    }
+  },
+  "deliverables": {
+    "badge": "📦 What you get",
+    "title": "Exactly what deliverables you receive",
+    "description": "Total transparency about what your investment includes",
+    "items": {
+      "code": {
+        "title": "Complete source code",
+        "description": "100% code ownership",
+        "details": "Private GitHub repository in your name. Documented code ready to scale."
+      },
+      "design": {
+        "title": "Designs and assets",
+        "description": "All design files",
+        "details": "Figma files, design system, icons, optimized images. Everything editable and reusable."
+      },
+      "documentation": {
+        "title": "Technical documentation",
+        "description": "Developer guides",
+        "details": "Complete README, system architecture, local setup and deployment guides."
+      },
+      "deployment": {
+        "title": "Deploy and configuration",
+        "description": "Your MVP running in production",
+        "details": "Configured hosting (Vercel/Railway/AWS), connected domain, active SSL."
+      },
+      "analytics": {
+        "title": "Configured analytics",
+        "description": "Metrics from day 1",
+        "details": "Google Analytics 4, configured event tracking, key metrics dashboard."
+      },
+      "ownership": {
+        "title": "Total ownership",
+        "description": "No strings attached",
+        "details": "Full access to all accounts and services. You can hire anyone you want afterwards."
+      }
+    },
+    "guarantee": {
+      "title": "Satisfaction guarantee",
+      "description": "If you're not satisfied with the MVP in the first 2 weeks, we'll refund 100% of your investment. No questions asked."
+    }
+  },
+  "postMVP": {
+    "badge": "♾️ After the MVP",
+    "title": "Launch is just the beginning",
+    "description": "Flexible options to evolve your product based on results",
+    "recommendedLabel": "Recommended",
+    "includesLabel": "Includes",
+    "fromLabel": "From",
+    "options": {
+      "maintenance": {
+        "title": "Support & Maintenance",
+        "description": "For teams that already have internal developers but need backup.",
+        "features": {
+          "1": "Critical bug fixes (response < 24h)",
+          "2": "Security updates",
+          "3": "Performance monitoring",
+          "4": "Technical support via Slack"
+        },
+        "pricing": "$500/mo"
+      },
+      "scaling": {
+        "title": "Active Scaling",
+        "description": "We continue with you iterating and improving based on real user feedback.",
+        "features": {
+          "1": "Everything in Maintenance +",
+          "2": "2-4 new features/month",
+          "3": "A/B testing and optimizations",
+          "4": "Weekly roadmap meetings"
+        },
+        "pricing": "$3,000/mo"
+      },
+      "evolution": {
+        "title": "Complete Evolution",
+        "description": "We become your external technical team. Ideal for founders without a CTO.",
+        "features": {
+          "1": "Everything in Scaling +",
+          "2": "Dedicated team (dev + designer)",
+          "3": "Quarterly roadmap",
+          "4": "Technical hiring and consulting"
+        },
+        "pricing": "$8,000/mo"
+      }
+    },
+    "path": {
+      "title": "Typical post-MVP path",
+      "step1": "Launch",
+      "step1Detail": "Weeks 1-4",
+      "step2": "Initial feedback",
+      "step2Detail": "Weeks 5-8",
+      "step3": "Iteration v1.1",
+      "step3Detail": "Weeks 9-12",
+      "step4": "Scale decision",
+      "step4Detail": "Month 4+"
+    },
+    "ctaText": "Not sure which option you need?",
+    "ctaButton": "Let's talk about your case"
+  },
+  "pricing": {
+    "badge": "💰 Transparent investment",
+    "title": "Plans that adapt to your moment",
+    "description": "No surprises. Fixed price, clear scope, defined timeline.",
+    "popularLabel": "Most chosen",
+    "plans": {
+      "starter": {
+        "name": "Starter Orbit",
+        "description": "To validate your idea quickly",
+        "price": "$3,000",
+        "priceDetail": "One-time investment",
+        "timeline": "4 weeks development",
+        "features": {
+          "1": "Discovery and MVP core definition",
+          "2": "Basic UI/UX design (5-7 screens)",
+          "3": "Frontend + backend development",
+          "4": "1 integration (payments or auth)",
+          "5": "Production deployment",
+          "6": "Basic documentation",
+          "7": "2 weeks post-launch support"
+        },
+        "cta": "Choose Starter"
+      },
+      "full": {
+        "name": "Full Orbit",
+        "description": "Complete MVP ready for real users",
+        "price": "$8,000",
+        "priceDetail": "One-time investment",
+        "timeline": "6-8 weeks development",
+        "features": {
+          "1": "Everything in Starter +",
+          "2": "Complete design (15-20 screens)",
+          "3": "3-4 complex integrations",
+          "4": "Admin panel",
+          "5": "Configured analytics and metrics",
+          "6": "Complete testing and QA",
+          "7": "Complete technical documentation",
+          "8": "1 month post-launch support"
+        },
+        "cta": "Choose Full Orbit"
+      },
+      "enterprise": {
+        "name": "Enterprise Cosmos",
+        "description": "For complex products or large teams",
+        "price": "From $15,000",
+        "priceDetail": "Custom scope",
+        "timeline": "8-12 weeks",
+        "features": {
+          "1": "Everything in Full Orbit +",
+          "2": "Enterprise scalable architecture",
+          "3": "Multiple roles and permissions",
+          "4": "Unlimited integrations",
+          "5": "Complete documented API",
+          "6": "Automated testing",
+          "7": "DevOps and CI/CD",
+          "8": "3 months dedicated support"
+        },
+        "cta": "Let's talk"
+      }
+    },
+    "customTitle": "Custom project?",
+    "customDescription": "If your project doesn't fit these plans, we can create a personalized proposal.",
+    "customCTA": "Schedule a call",
+    "guaranteeTitle": "Risk-free guarantee",
+    "guaranteeDescription": "If after 2 weeks you're not convinced, cancel and we'll refund 100%. No fine print.",
+    "faqText": "Questions about pricing? Check our FAQ or schedule a free call."
+  },
   "manifesto": {
+    "badge": "✨ Our philosophy",
     "title": "Astral Manifesto",
     "description": "We don't believe in straight paths. We believe in orbits, quantum leaps and unexpected portals.",
-    "quote": "An MVP is not a finished product: it's a frequency, a pulse that vibrates in another dimension. At AstralWalker we work so that your idea stops being trapped in a drawer and starts orbiting realities."
+    "core": "An MVP is not a finished product: it's a frequency, a pulse that vibrates in another dimension. At AstralWalker we work so that your idea stops being trapped in a drawer and starts orbiting realities.",
+    "principle1": {
+      "title": "Speed with purpose",
+      "description": "It's not about doing fast for the sake of it. It's about getting to market with the essentials, validating and evolving with real data."
+    },
+    "principle2": {
+      "title": "Design that communicates",
+      "description": "Every pixel tells a story. We create experiences that not only work, but emotionally connect with your users."
+    },
+    "principle3": {
+      "title": "Code that scales",
+      "description": "Your MVP must grow with you. We write clean, documented code ready for the future ahead."
+    }
   },
   "uniqueness": {
     "title": "What makes us unique",

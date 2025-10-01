@@ -3,7 +3,11 @@ import { HeroSection } from "@/components/HeroSection";
 import { ManifestoSection } from "@/components/ManifestoSection";
 import { ServicesSection } from "@/components/ServicesSection";
 import { UniquenessSection } from "@/components/UniquenessSection";
-import { PortfolioSection } from "@/components/PortfolioSection";
+import { TeamSection } from "@/components/TeamSection";
+import { CaseStudiesSection } from "@/components/CaseStudiesSection";
+import { PricingSection } from "@/components/PricingSection";
+import { DeliverablesSection } from "@/components/DeliverablesSection";
+import { PostMVPSection } from "@/components/PostMVPSection";
 import { CTASection } from "@/components/CTASection";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
@@ -37,7 +41,11 @@ export default async function Home({ params }: HomeProps) {
         <ManifestoSection />
         <ServicesSection />
         <UniquenessSection />
-        <PortfolioSection />
+        <TeamSection />
+        <CaseStudiesSection />
+        <PricingSection />
+        <DeliverablesSection />
+        <PostMVPSection />
         <CTASection />
         <ContactSection />
         <Footer />
